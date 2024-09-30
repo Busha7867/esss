@@ -1,0 +1,77 @@
+.tradeShow-1 {
+    background: linear-gradient(rgb(168 207 69 / 52%),rgb(168 207 70 / 77%)),url(/src/Components/Pages/pages2/3dback.webp) no-repeat center/cover;
+}
+.Hexi{
+    background: linear-gradient(rgb(168 207 69 / 52%),rgb(168 207 70 / 77%)),url(../Tradeshowinnerpages/tradeimages/Heimtex.jpg)no-repeat top center/cover ;
+}
+.Psi{
+    background: linear-gradient(rgb(168 207 69 / 52%),rgb(168 207 70 / 77%)),url(../Tradeshowinnerpages/tradeimages/Psi.jpg)no-repeat top center/cover ;
+}
+.Imm{
+    background: linear-gradient(rgb(168 207 69 / 52%),rgb(168 207 70 / 77%)),url(../Tradeshowinnerpages/tradeimages/imm.png)no-repeat top center/cover ;
+}
+.Boot{
+    background: linear-gradient(rgb(168 207 69 / 52%),rgb(168 207 70 / 77%)),url(../Tradeshowinnerpages/tradeimages/Boot.jpg)no-repeat top center/cover ;
+}
+.Liv{
+    background: linear-gradient(rgb(168 207 69 / 52%),rgb(168 207 70 / 77%)),url(../Tradeshowinnerpages/tradeimages/Living.jpg)no-repeat top center/cover ;
+}
+.Fitur{
+    background: linear-gradient(rgb(168 207 69 / 52%),rgb(168 207 70 / 77%)),url(../Tradeshowinnerpages/tradeimages/fitur.jpg)no-repeat  center/cover ;
+}
+.Chris{
+    background: linear-gradient(rgb(168 207 69 / 52%),rgb(168 207 70 / 77%)),url(../Tradeshowinnerpages/tradeimages/chrisfair.jpg)no-repeat  center/cover ;
+}
+.psiLogo{
+    border: 4px solid #A8cf45;
+    padding: 10px;
+    border-radius: 1rem;
+    margin-top: 10px;
+ 
+    width: 20%;
+}
+.trade_heading{ font-size: 1.6rem;color: #fff; text-align: center;}
+.germanpara a{color: #A8cf45;}
+.TRADES{background: url(../pages2/3dback.webp) no-repeat center/cover;}
+.tradebtn{width: 222px;
+    padding-top: 13px;
+    padding-bottom: 18px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 2rem;
+    margin-bottom: -27px;
+    cursor: pointer;
+    display: inline-block;}
+
+    .btntrade-3{
+        border: 2px solid #A8cf45;
+  background-color: #fff;
+  border-radius: 20px;
+  color: #A8cf45;
+  transition: .3s;
+    }
+
+.btntrade-3:hover{
+    box-shadow: 8px 8px #a8cf45e3;
+  transition: .3s;
+}
+.tradeffect{
+   
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+   
+    height: 72%;
+    margin-top: 10%;
+    margin-bottom: 5rem;
+}
+ #captcha{margin-left: 190px;}
+
+ .tradeicons{display: block; color: #fff;font-size: 1.2rem;}
+ .tradeffect span{color: #fff; font-size: 1.2rem;}

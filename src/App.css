@@ -1,0 +1,754 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  scroll-padding-top: 4rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 -15px;
+
+}
+
+.row[class^='col'] {
+  flex: 1 0 auto;
+  padding: 0 15px;
+}
+
+.row .col-1 {
+  flex-basis: 8.33%;
+  max-width: 8.33%;
+}
+
+.row .col-2 {
+  flex-basis: 16.66%;
+  max-width: 16.66%;
+}
+
+.row .col-3 {
+  flex-basis: 25%;
+  max-width: 25%;
+}
+
+.row .col-4 {
+  flex-basis: 33.33%;
+  max-width: 33.33%;
+}
+
+.row .col-5 {
+  flex-basis: 41.66%;
+  max-width: 41.66%;
+}
+
+.row .col-6 {
+  flex-basis: 50%;
+  max-width: 50%;
+}
+
+.row .col-7 {
+  flex-basis: 58.33%;
+  max-width: 58.33%;
+}
+
+.row .col-8 {
+  flex-basis: 66.66%;
+  max-width: 66.66%;
+}
+
+.row .col-9 {
+  flex-basis: 75%;
+  max-width: 75%;
+}
+
+.row .col-10 {
+  flex-basis: 83.33%;
+  max-width: 83.33%;
+}
+
+.row .col-11 {
+  flex-basis: 91.11%;
+  max-width: 91.11%;
+}
+
+.row .col-10 {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+
+
+#open {
+  height: 50px;
+  /* width: 180PX; */
+  background: transparent;
+  color: #fff;
+  font-size: 17px;
+  border: none;
+  z-index: 1;
+
+}
+
+.modal-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .3);
+  transition: all .5s linear;
+  transform: scale(0);
+}
+
+.modal-container .model {
+  height: 400px;
+
+  margin: 0 10px;
+  padding: 20px;
+  border-radius: 5px;
+
+  text-align: center;
+  position: relative;
+}
+
+.modal-container .model .modalicons {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 30px;
+  color: #A8cf45;
+}
+
+#open2 {
+  height: 50px;
+  /* width: 180PX; */
+  background: transparent;
+  color: #fff;
+  font-size: 17px;
+  border: none;
+  z-index: 1;
+
+}
+
+.modal-container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .3);
+  transition: all .5s linear;
+  transform: scale(0);
+}
+
+.modal-container2 .models {
+  height: 400px;
+
+  margin: 0 10px;
+  padding: 20px;
+  border-radius: 5px;
+
+  text-align: center;
+  position: relative;
+}
+
+.modal-container2 .models .modalicons {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 30px;
+  color: #A8cf45;
+}
+
+#open3 {
+  height: 50px;
+  /* width: 180PX; */
+  background: transparent;
+  color: #fff;
+  font-size: 17px;
+  border: none;
+  z-index: 1;
+
+}
+
+.modal-container3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .3);
+  transition: all .5s linear;
+  transform: scale(0);
+}
+
+.modal-container3 .modelss {
+  height: 400px;
+
+  margin: 0 10px;
+  padding: 20px;
+  border-radius: 5px;
+
+  text-align: center;
+  position: relative;
+}
+
+.modal-container3 .modelss .modalicons {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 30px;
+  color: #A8cf45;
+}
+
+
+
+.modal-container4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .3);
+  transition: all .5s linear;
+  transform: scale(0);
+}
+
+.modal-container4 .modelsb {
+  height: 400px;
+
+  margin: 0 10px;
+  padding: 20px;
+  border-radius: 5px;
+
+  text-align: center;
+  position: relative;
+} 
+
+.modal-container4 .modelsb .modalicons {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 30px;
+  color: #A8cf45;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.cta_flex button span {
+  padding: 15px;
+  transition: .5s;
+  position: relative;
+}
+
+.cta_flex span:nth-child(1) {
+  color: #fff;
+  background: #A8cf45;
+}
+
+.cta_flex span:nth-child(2) {
+  color: #fff;
+  background: #57667e;
+}
+
+.cta_flex span:nth-child(1):before {
+  content: attr(data-attr);
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #A8cf45;
+  padding: 15px;
+  transition: 0.5S;
+  transform-origin: top;
+  transform: rotateX(90deg) translateY(-50%);
+}
+
+.cta_flex button:hover span:nth-child(1):before {
+  transform: rotateX(0deg) translateY(0%);
+}
+
+.cta_flex button span:nth-child(2):before {
+  content: attr(data-attr);
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #A8cf45;
+  padding: 15px;
+  transition: 0.5S;
+  transform-origin: bottom;
+  transform: rotateX(90deg) translateY(50%);
+}
+
+.cta_flex button:hover span:nth-child(2):before {
+  transform: rotateX(0deg) translateY(0%);
+}
+
+.cta_flex button span:nth-child(1):after {
+  content: attr(data-attr);
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #A8cf45;
+  transform-origin: bottom;
+  transform: rotateX(0deg) translateY(0%);
+  transition: 0.5s;
+}
+
+.cta_flex button:hover span:nth-child(1):after {
+  transform: rotateX(90deg) translateY(50%);
+}
+
+.cta_flex button span:nth-child(2):after {
+  content: attr(data-attr);
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #57667e;
+  padding: 15px;
+  transition: 0.5S;
+  transform-origin: top;
+  transform: rotateX(0deg) translateY(0%);
+}
+
+.cta_flex button:hover span:nth-child(2):after {
+  transform: rotateX(90deg) translateY(-50%);
+}
+
+
+.cta_flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+background: rgba(255, 255, 255, 0.52);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.9px);
+
+border: 1px solid rgba(255, 255, 255, 0.3);
+  height: 74px;
+  width: 76%;
+  margin: 0 auto;
+}
+
+
+
+
+.toggle,
+[id^=drop] {
+  display: none ;
+}
+
+
+.menu-icon {
+	display: none;
+}
+
+
+/* Giving a background-color to the nav container. */
+nav {
+	margin: 0;
+	padding: 0;
+	background-color: #A8CF45;
+	line-height: 31px;
+}
+
+
+
+/* Since we'll have the "ul li" "float:left"
+ * we need to add a clear after the container. */
+
+
+
+/* Removing padding, margin and "list-style" from the "ul",
+ * and adding "position:reltive" */
+nav ul {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	list-style: none;
+	justify-content: space-evenly;
+	align-items: center;
+  z-index: 99999;
+
+}
+
+/* Positioning the navigation items inline */
+nav ul li {
+	margin: 0px;
+	display: inline-block;
+	/* float: left;
+	background-color: #254441; */
+}
+
+/* Styling the links */
+nav a {
+	display: block;
+	padding: 14px 15px;
+	color: #FFF;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+/* nav ul li a{
+  color: #fff;
+  text-decoration: none;
+  line-height: 40px;
+  font-size: 17px;
+  padding: 8px 13px;
+} */
+
+
+
+
+
+
+/* Hide Dropdowns by Default
+ * and giving it a position of absolute */
+nav ul ul {
+	display: none;
+	position: absolute;
+	/* has to be the same number as the "line-height" of "nav a" */
+	top: 60px;
+	transition: top .3s;
+	border-top: 3px solid cyan;
+	background: #A8cf45;
+	/* opacity: 0; */
+	/* visibility: hidden; */
+	animation: rotateMenu 700ms ease-in-out forwards;
+    transform-origin: top center;
+
+	transition: all 0.9s ease-out;
+}
+
+@keyframes rotateMenu {
+    0% {
+        transform: rotateX(-90deg)
+    }
+    70% {
+        transform: rotateX(20deg) 
+    }
+    100% {
+        transform: rotateX(0deg) 
+    }
+}
+
+
+
+nav ul li a:hover {
+	color: #57667ed4;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #fff, 0 0 5px #66ffff;
+
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover>ul {
+	display: inherit;
+	background-color: #A8CF45;
+	top: 58px;
+	opacity: 1;
+	visibility: visible;
+
+
+}
+
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width: 250px;
+	float: none;
+	display: list-item;
+	position: relative;
+}
+nav ul ul li a{font-size: 15px;padding: 4px 11px;}
+
+/* Second, Third and more Tiers	
+ * We move the 2nd and 3rd etc tier dropdowns to the left
+ * by the amount of the width of the first tier.
+*/
+nav ul ul ul li {
+	position: relative;
+	top: -60px;
+	/* has to be the same number as the "width" of "nav ul ul li" */
+	left: 170px;
+}
+
+nav ul .unorder_sublinks li a:hover {
+	color: #57667e;
+	box-shadow: none;
+}
+
+
+
+
+li>a:only-child:after {
+	content: '';
+}
+
+
+/* Media Queries
+--------------------------------------------- */
+
+@media all and (max-width : 768px) {
+
+	#logo {
+		display: block;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+		float: none;
+	}
+
+	nav {
+		margin: 0;
+	}
+
+	nav a {
+
+		padding: 9px 15px;
+		color: #A8cf45;
+		font-size: 15px;
+		text-decoration: none;
+	}
+
+	/* Hide the navigation menu by default */
+	/* Also hide the  */
+	.toggle+a,
+	.menu {
+		display: none;
+	}
+
+	.navbar {
+		position: inherit;
+		max-width: 100%;
+		margin: 0 !important;
+		border-radius: 0 !important;
+	}
+
+
+
+
+	.nav-menu {
+		display: block;
+    padding: 62px 0;
+		width: 56%;
+		height: auto;
+		position: fixed;
+		top: 0;
+		left: -100%;
+		opacity: 1;
+		transition: all 0.5s ease;
+    bottom: 0;
+	}
+
+	.nav-menu.active {
+
+		background: #FFF;
+		left: 0;
+		opacity: 1;
+		transition: all 0.5s ease;
+		z-index: 888888;
+
+		border-radius: 0px 0px 0px 0px;
+    box-shadow: -3px -4px 4px -2px #A8cf45 inset;
+	}
+
+	.menu-icon {
+
+		position: absolute;
+		top: -66px;
+		right: 18px;
+		transform: translate(-100%, 60%);
+		font-size: 1.8rem;
+		cursor: pointer;
+		color: #A8CF45;
+		display: block !important;
+	}
+
+	/* Stylinf the toggle lable */
+
+	.toggle {
+		display: block !important;
+		/* background-color: #254441; */
+		padding: 9px 15px;
+		color: #A8CF45;
+		font-size: 15px;
+		text-decoration: none;
+		border-bottom: 1px solid #A8CF45;
+	}
+
+	.fa-angle-down {
+		float: right;
+	}
+
+	.toggle:hover {
+		background-color: #A8CF45;
+    color: #fff;
+	}
+
+	/* Display Dropdown when clicked on Parent Lable */
+	[id^=drop]:checked+ul {
+		display: block;
+	}
+
+	/* Change menu item's width to 100% */
+	nav ul li {
+		display: block;
+		width: 100%;
+	}
+
+	nav ul ul .toggle,
+	nav ul ul a {
+		padding: 0 40px;
+	}
+
+	nav ul ul ul a {
+		padding: 0 10px;
+	}
+
+	nav a:hover,
+	nav ul ul ul a {
+		background-color: #000000;
+	}
+
+	nav ul li ul li .toggle,
+	nav ul ul a,
+	nav ul ul ul a {
+		padding: 14px 20px;
+		color: #FFF;
+		font-size: 17px;
+	}
+
+
+	nav ul li ul li .toggle,
+	nav ul ul a {
+		background-color: #57667e;
+	}
+
+	/* Hide Dropdowns by Default */
+	nav ul ul {
+		float: none;
+		position: static;
+		color: #ffffff;
+		/* has to be the same number as the "line-height" of "nav a" */
+	}
+
+	/* Hide menus on hover */
+	nav ul ul li:hover>ul,
+	nav ul li:hover>ul {
+		display: none;
+	}
+
+	/* Fisrt Tier Dropdown */
+	nav ul ul li {
+		display: block;
+		width: 100%;
+	}
+
+	nav ul ul ul li {
+		position: static;
+		/* has to be the same number as the "width" of "nav ul ul li" */
+
+	}
+
+}
+
+@media all and (max-width : 330px) {
+
+	nav ul li {
+		display: block;
+		width: 94%;
+	}
+
+}
+
+
+
+/* sidebar form */
+
+
+.Siderbar_form{
+  position: fixed;
+  top: 50%;
+  right: -350px;
+  width: 350px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+  border-radius: 8px 0 0 8px;
+  background: #fff;
+  padding: 20px;
+  transform: translateY(-50%);
+  transition: right .4s linear;
+
+}
+.Siderbar_form .show{
+  right: 0;
+
+}
+
+.Topto_up{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0 26px;
+  background: #A8cf45;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+.universe-1 .reserved span{
+  color: #57667e;
+display: flex;
+justify-content: center;
+
+}

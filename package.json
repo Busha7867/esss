@@ -1,0 +1,52 @@
+{
+  "name": "expodropdown",
+  "homepage": "http://planmybooth.in/index.html/",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.1",
+    "emailjs-com": "^3.2.0",
+    "helmet": "^7.0.0",
+    "jquery": "^3.7.0",
+    "lightbox.js-react": "^0.7.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-countup": "^6.4.2",
+    "react-dom": "^18.2.0",
+    "react-google-recaptcha": "^3.1.0",
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^7.45.0",
+    "react-icons": "^4.10.1",
+    "react-player": "^2.12.0",
+    "react-router-dom": "^6.12.0",
+    "react-scroll": "^1.8.9",
+    "react-scroll-motion": "^0.3.2",
+    "react-scroll-trigger": "^0.6.14",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.0.7",
+    "swiper": "^10.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "vite": "^4.3.9"
+  }
+}

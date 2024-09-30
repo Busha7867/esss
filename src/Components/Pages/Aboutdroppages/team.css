@@ -1,0 +1,312 @@
+
+.team_1{
+    background: linear-gradient(rgba(225,225,255,0.1),rgba(225,225,255,0.3)),url(../Aboutdroppages/teamwork.avif)no-repeat  center/cover;
+    /* height: 60vh; */
+
+}
+.teamvideo{width: 100%;}
+.teamheading{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #a8cf45;
+    font-size: 2rem;
+}
+.team_para{
+    border: 2px solid #a8cf45;
+    padding: 16px;
+    border-radius: 1rem;
+    font-size: 1.1rem;
+}
+.teamexpertize{
+    background-color: #A8CF45;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(181,683,328)'%3E%3Cstop offset='0' stop-color='%23A8CF45'/%3E%3Cstop offset='1' stop-color='%23A8CF45'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='1585' height='1320.8' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.05'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 0px;
+    color: #fff;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+.teamexpertize::before{
+   
+    
+    border-top-color: #A8cf45;
+    top: -23px;
+    transform: rotate(-405deg);
+    left: 72%;
+
+
+
+}
+.teamexpertize span{
+    color: #57667e;
+    font-weight: 600;
+}
+.team-3{
+    background: linear-gradient(rgb(225 225 225 / 46%),rgb(225 225 225 / 25%)),url(/src/Components/Pages/Aboutdroppages/teamback.avif)no-repeat center/cover;
+
+  
+   
+  
+}
+.teamparathree{
+    padding: 50px;
+    background: transparent;
+
+    background: linear-gradient(to right bottom, rgb(0 0 0 / 51%) , rgb(42 38 38 / 51%));
+    
+
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    color: #FFF;
+    font-size: 1.1rem;
+}
+.team_section   a{color: #A8CF45;}
+
+
+/* Client Testimonial */
+.big_image{
+    margin-top: 3rem;
+    height: 100%;
+    width: 80%;
+    object-fit: cover;
+    border-radius: 76px 76px 0px 0px;
+
+}
+
+.client_logo1 { 
+    position: relative;
+    z-index: 1;
+}
+.client_logo1{
+    border: 5px solid #A8CF45;
+
+    background: #fff;
+
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    position: absolute;
+    width: 9%;
+    /* height: 33%; */
+    right: 9rem;
+    top: 22rem;
+
+}
+.client_logo2{
+    background: transparent;
+    border: 5px solid #A8CF45;
+
+    background: #fff;
+    backdrop-filter: blur(1rem);
+
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+
+    border-radius: 1rem;
+  
+    border-radius: 1rem;
+    position: absolute;
+    width: 9%;
+    /* height: 33%; */
+    top: 18rem;
+    left: 44rem;
+
+    
+}
+.client_logo3{
+    background: transparent;
+    border: 5px solid #A8CF45;
+
+    background: #fff;
+    backdrop-filter: blur(1rem);
+
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+
+    border-radius: 1rem;
+  
+    border-radius: 1rem;
+    position: absolute;
+    width: 9%;
+    /* height: 33%; */
+    top: 18rem;
+    left: 44rem;
+
+    
+}
+.client_logo4{
+    background: transparent;
+    border: 5px solid #A8CF45;
+
+    background: #fff;
+    backdrop-filter: blur(1rem);
+
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+
+    border-radius: 1rem;
+  
+    border-radius: 1rem;
+    position: absolute;
+    width: 9%;
+    /* heig: 33%; */
+    top: 12rem;
+    left: 69rem;
+
+    
+}
+.client_logo5{
+    background: transparent;
+    border: 5px solid #A8CF45;
+
+    background: #fff;
+    backdrop-filter: blur(1rem);
+
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+
+    border-radius: 1rem;
+  
+    border-radius: 1rem;
+    position: absolute;
+    width: 9%;
+    /* height: 33%; */
+    top: 28rem;
+    left: 44rem
+
+    
+}
+.mainclient_content{
+    /* text-align: center; */
+    margin-top: 15%;
+}
+.mainclient_content h1{
+    color: #A8CF45;
+    font-size: 3rem;
+}
+.mainclient_content p{
+    color: #57667e;
+font-size: 1.3rem;
+text-shadow: 0 0 #000;
+margin-bottom: 3rem;
+}
+.testiimage{
+    width: 24%;
+    border-radius: 50%;
+    margin: 0 7px;
+}
+.testimonial{
+    display: flex;
+    margin-bottom: 6rem;
+
+}
+.onetestimonial{
+    border: 3px solid #A8CF45;
+    display: flex;
+    width: 40%;
+    margin: 0 2px;
+    background: #A8cf45;
+    border-radius: 1rem;
+    color: #fff;
+
+
+}
+.twotestimonial{
+    border: 3px solid #A8CF45;
+    display: flex   ;
+    width: 40%;
+    background: #A8cf45;
+    border-radius: 1rem;
+    color: #fff;
+
+
+}
+.flex1 i{
+    color: #EAC612;
+    font-size: 0.5rem;
+}
+.testimonial_2{
+    background-image: repeating-linear-gradient(135deg, rgba(240, 240, 240,0.02) 0px, rgba(240, 240, 240,0.02) 21px,rgba(224, 224, 224,0.02) 21px, rgba(224, 224, 224,0.02) 42px,rgba(208, 208, 208,0.02) 42px, rgba(208, 208, 208,0.02) 63px,rgba(192, 192, 192,0.02) 63px, rgba(192, 192, 192,0.02) 84px,rgba(175, 175, 175,0.02) 84px, rgba(175, 175, 175,0.02) 105px,rgba(159, 159, 159,0.02) 105px, rgba(159, 159, 159,0.02) 126px,rgba(143, 143, 143,0.02) 126px, rgba(143, 143, 143,0.02) 147px,rgba(127, 127, 127,0.02) 147px, rgba(127, 127, 127,0.02) 168px),repeating-linear-gradient(45deg, rgba(232, 232, 232,0.02) 0px, rgba(232, 232, 232,0.02) 21px,rgba(209, 209, 209,0.02) 21px, rgba(209, 209, 209,0.02) 42px,rgba(185, 185, 185,0.02) 42px, rgba(185, 185, 185,0.02) 63px,rgba(162, 162, 162,0.02) 63px, rgba(162, 162, 162,0.02) 84px,rgba(138, 138, 138,0.02) 84px, rgba(138, 138, 138,0.02) 105px,rgba(115, 115, 115,0.02) 105px, rgba(115, 115, 115,0.02) 126px,rgba(91, 91, 91,0.02) 126px, rgba(91, 91, 91,0.02) 147px,rgba(68, 68, 68,0.02) 147px, rgba(68, 68, 68,0.02) 168px),linear-gradient(90deg, #ffffff,#ffffff);
+}
+.testimonial_1{
+    
+    background: linear-gradient(-53deg, #a8cf45, transparent);
+}
+.test_heading{
+    color: #A8CF45;
+    font-size: 2rem;
+    text-align: center;
+    margin: 80px 10px 10px 10px;
+}
+.testimonials{
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    background-color: #FFF;
+    padding: 210px 0;
+    row-gap: 30px;
+
+    margin-bottom: 2rem;
+
+}
+.testimonials .testi-image{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    background: #a8cf4573;
+    position: relative;
+    top: -21px;
+    backdrop-filter: blur(3px);
+
+}
+.testimonials .slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 2px;
+}
+.slide p{
+text-align: center;
+    padding: 0 60px;
+   
+    font-size: 14px;
+    font-weight: 400;
+}
+.slide .quote-icon{
+    font-size: 30px;
+    color: #A8CF45;
+}
+.slide .details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.details .name{
+    font-size: 14px;
+    font-weight: 600;
+    color: #57667e;
+}
+.details .job{
+    font-size: 12px;
+    font-weight: 400;
+    color: #57667e;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: 'next';
+    color: #A8CF45;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: 'prev';
+    color: #A8CF45;
+}
+.swiper-pagination-fraction {
+    color: var(--swiper-pagination-fraction-color,inherit);
+    display: none;
+}
+.backs{
+    background: #A8CF45;
+    position: relative;
+    border-radius: 50%;
+
+}

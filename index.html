@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/fevicon.png" href="/fevicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css  ">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css  ">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+    integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Expo Stand Service</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+    integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+
+
+
+
+
+
+    (function ($) {
+
+      var allPanels = $('.accordion > dd').hide();
+      
+
+      $('.accordion > dt > a').click(function () {
+        allPanels.slideUp();
+        $(this).parent().next().slideDown();
+        return false;
+      });
+
+    })(jQuery);
+
+
+
+
+    $(document).ready(function () {
+      $('.gallery_item a').magnificPopup({
+        type: 'image', gallery: {
+          enabled: true
+        }
+      });
+    });
+
+
+
+    $('.play-button').on('click', function () {
+      $(this).hide();
+      $(this).parent().fadeOut();
+      $(this).parent().siblings('.slider-video')[0].play();
+    });
+
+    $('.slider-video').on('play', function () {
+      $(this).attr('controls', '1');
+    });
+
+
+
+
+
+
+    // popup
+
+    $(document).ready(function () {
+
+      $("#root").on("click", ".cta_flex #open", function () {
+
+        $('.modal-container').css('transform', "scale(1)");
+      });
+
+      $("#root").on("click", ".close", function () {
+        $('.modal-container').css('transform', "scale(0)");
+      })
+
+      $("#root").on("click", ".cta_flex #open2", function () {
+
+        $('.modal-container2').css('transform', "scale(1)");
+      });
+
+      $("#root").on("click", ".close2", function () {
+        $('.modal-container2').css('transform', "scale(0)");
+      })
+
+      $("#root").on("click", ".cta_flex #open3", function () {
+  
+        $('.modal-container3').css('transform', "scale(1)");
+      });
+
+      $("#root").on("click", ".close3", function () {
+        $('.modal-container3').css('transform', "scale(0)");
+      })
+
+     
+      $("#root").on("click", ".background-2 #open4", function () {
+  
+        $('.modal-containe4').css('transform', "scale(1)");
+      });
+
+      $("#root").on("click", ".close4", function () {
+        $('.modal-container4').css('transform', "scale(0)");
+      })
+
+     
+
+
+
+    });
+
+// sidebarform 
+$(document).ready(function(){
+  $("#root").on("click",".btn-quote", function(){
+
+    $(".sidebar-form").toggleClass("show")
+  });
+
+
+  
+
+  
+  
+
+  
+})
+
+
+
+
+
+
+
+
+  </script>
+
+
+
+  <script type="module" src="/src/main.jsx"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,501 @@
+.major-1 {
+  background: url(../Pages/majorback.jpg) no-repeat top center/cover;
+  
+  -webkit-animation: slidein 100s;
+  animation: slidein 100s;
+
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    background-position: top;
+    background-size: 3000px;
+  }
+
+  to {
+    background-position: -100px 0px;
+    background-size: 2143px;
+  }
+
+}
+
+
+.major-head {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.mbox {
+  width: 23%;
+  height: 10rem
+}
+
+.indianflags {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+/* trade */
+
+.trade_video {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.left_tradebox {
+  width: 23%;
+  /* background: #A8CF45; */
+  border-radius: 1rem;
+  margin: 20px 46px;
+  backdrop-filter: blur(2px);
+  height: 273px;
+  margin: 2rem 9px;
+  box-shadow: inset 0 0 2000px #565656;
+  filter: blur(-1px);
+
+}
+
+.trade_img {
+  width: 92%;
+
+  box-shadow: 9px 8px 6px #7a2b2b7d;
+  border-radius: 1rem;
+  margin: 1rem 10px;
+  border: 3px solid yellow;
+}
+
+.timg2 {
+  border: 3px solid rgb(12, 207, 142);
+}
+
+.two {
+  background: rgb(12, 207, 142) !important;
+}
+
+.timg3 {
+  border: 3px solid rgb(25, 148, 219);
+}
+
+.three {
+  background: rgb(25, 148, 219) !important;
+}
+
+.timg4 {
+  border: 3px solid rgb(201, 73, 94);
+}
+
+.four {
+  background: rgb(201, 73, 94) !important;
+}
+
+.trade_span {
+  display: flex;
+  justify-content: center;
+  transform: rotate(91deg);
+  position: relative;
+  z-index: 4;
+  left: 7rem;
+  top: 7rem;
+  color: #fff;
+  font-size: 1.1rem;
+
+}
+
+.tradebefore_span {
+  background: rgba(255, 255, 0, 0.705);
+  width: 30%;
+  width: 50%;
+  height: 40%;
+  position: absolute;
+  border-radius: 1rem;
+  top: 7px;
+
+}
+
+.para_trade {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+
+  padding: 0 1rem;
+  position: relative;
+  /* padding: 0; */
+  /* width: 300px; */
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+
+}
+
+.trade_para2 {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.trade_icon {
+  background: #fff;
+  width: 35px;
+  height: 35px;
+  color: #A8CF45;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 50%;
+  position: relative;
+  top: -2rem;
+  left: 1rem;
+  line-height: 33px;
+
+
+}
+
+.trade_hide {
+  opacity: 0;
+  font-size: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background-color: rgba(200, 200, 200, 0.5);
+  backdrop-filter: blur(2px);
+  width: 300px;
+  height: 300px;
+  -webkit-transition: all 400ms ease-out;
+  -moz-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  -ms-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+  text-align: center;
+
+}
+
+.para_trade .trade_hide:hover {
+  opacity: 1;
+}
+
+.para_trade .trade_hide .hidden {
+  height: 0;
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+}
+
+.para_trade .trade_hide:hover .hidden {
+  opacity: 1;
+  transform: translateY(100px);
+  -webkit-transform: translateY(100px);
+}
+
+.trades {
+  background: #A8CF45;
+  width: 77%;
+  text-align: center;
+  margin: 0 1.7rem;
+  border-radius: 1rem;
+  padding: 1rem 0;
+}
+
+/* Portfolio */
+.ports_image {
+
+  padding: 0 4px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 1.5rem;
+  grid-template-areas: 'gallery_item1 gallery_item2 gallery_item3';
+}
+
+.portfolioimg {
+  /* background: url(./majorback.jpg) no-repeat top center/cover; */
+  height: 100%;
+  padding: 1rem;
+  /* border-radius: 10px; */
+
+}
+
+.active-tabss {
+  background: #A8CF45;
+  border-bottom: 1px solid transparent;
+  border-radius: 0rem;
+  
+}
+
+.tabss {
+
+ 
+  border-radius: 0rem;
+
+}
+
+
+button{position: relative;}
+
+.active-tabss::before {
+  
+  content: "";
+  border-style: solid;
+    border-width: 0 15px 15px 0;
+    border-color: transparent #a0070a transparent transparent;
+    height: 14px;
+    position: absolute;
+    right: 12px;
+    top: 18px;
+    transition: all 300ms ease;
+    width: 14px;
+    /* background-color: red; */
+    transform: rotate(28px)
+} 
+
+.porttabs {
+  margin-left: -7rem;
+}
+
+.doubleimg4{
+  height: 66%;
+  width: 100%;
+  object-fit: cover;
+}
+.doubleimg1{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+
+
+.bloc-tabs ul {
+  display: flex;
+}
+
+
+
+
+
+.bloc-tabs ul li.active{
+  background: #A8CF45;
+  border-bottom: 1px solid transparent;
+  border-radius: 1rem;
+  color: #fff;
+  box-shadow: 1px 2px 4px 1px rgba(168, 207, 69, 0.82);
+
+  
+}
+.bloc-tabs ul li.active::before{
+  
+  content: "";
+    border-style: solid;
+    border-width: 0 15px 15px 0;
+    border-color: transparent #A8CF45 transparent transparent;
+    height: 14px;
+    position: absolute;
+    right: 168px;
+    top: 33px;
+    transition: all 300ms ease;
+    width: 14px;
+    transform: rotate(-1deg);
+}
+
+.bloc_lists li{
+  padding: 15px;
+  background-color: #5656566e;
+  position: relative;
+  margin: 0 5px;
+  border-radius: 1rem;
+  padding: 14px 42px;
+  box-shadow: 3px 3px 8px -2px #57667e;
+
+
+}
+
+
+/* Contactus */
+
+
+.contact-1{
+  background:linear-gradient(rgba(225,225,255,0.1),rgb(225 225 225 / 7%)),url(/src/Components/Pages/contactback.png) no-repeat top center/cover;
+}
+
+.glassy{
+  /* From https://css.glass */
+background: rgba(202, 247, 121, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+margin-top: 20%;
+text-align: center;
+margin-bottom: 4rem;
+}
+.contact_head{
+  font-size: 3rem;
+  margin-top: 4rem;
+  color: #fff;
+}
+.contact_para{
+  font-size: 2rem;
+  margin: 2rem 0;
+  color: #fff ;
+}
+.contact_head img{
+  position: absolute;
+  left: -4px;
+  top: -73px;
+
+}
+
+
+.contactcards{
+  display: grid;
+    grid-template-columns: 365px 286px;
+}
+.carddds{
+  height: 233px !important;
+  width: 358px !important ;
+  border-radius: 1rem;
+  margin-bottom: -1rem
+}
+.uscontact{
+  
+  padding:69px 21px !important;
+  text-align: start !important;
+  
+}
+.contct_para{
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  letter-spacing: 3px;
+}
+.contacticon{
+  color: #fff;
+  margin: 7px 6px;
+}
+
+.Contact_links a{
+  color: #fff;
+ 
+}
+
+
+.contact_card{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 350px;
+  height: 300px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+  margin: 20px;
+  transition: 0.5s;
+}
+.contact_flex{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 197px;
+}
+.contact_card:hover{
+height: 334px;
+}
+.contact_card .imgbx{
+  position: absolute;
+  width: 300px;
+  height: 220px;
+  background:#A8CF45;
+  top: 20px;
+  border-radius: 12px;
+  transition: 0.5s;
+}
+.contact_card .imgbx
+.contacticon{
+  position: absolute;
+  color: #A8CF45;
+  font-size: 3rem;
+  left: 8rem;
+  top:-2rem;
+}
+.card_images{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+.card_para{
+  position: absolute;
+  top: 5rem;
+  left: 5rem;
+  color: #fff;
+  font-size: 26px;
+  text-shadow: 0 0 black;
+  font-weight: 600;
+  /* background: #a8cf458a; */
+  backdrop-filter: blur(33px);
+  padding: 2px 27px;
+  border-radius: 1rem;
+  /* width: 50%;
+  text-align: center; */
+}
+.contact_flex .contact_card:hover .imgbx{
+
+
+  top: -100px;
+  scale: 0.75;
+  box-shadow: 0 15px 45px rgba(0,0,0,0.3);
+}
+
+.contact_flex .contact_card .contact_content{
+  position: absolute;
+  width: 100%;
+  padding: 0 30px;
+  top: 252px;
+  height: 25px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.contact_flex .contact_card:hover .contact_content{
+  height: 250px;
+  top: 130px;
+}
+ .contact-lists .contacticonss{
+  color: #A8CF45;
+  margin: 7px 0;
+
+}
+
+.contact-lists a{
+  color: #000;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.mfp-arrow-right {
+  left: 100%;
+  transform: translateX(-100%);
+}

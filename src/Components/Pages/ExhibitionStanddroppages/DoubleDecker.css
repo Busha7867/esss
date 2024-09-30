@@ -1,0 +1,185 @@
+
+.doublep::before{
+    left: -24px;
+    top: 17px;
+    transform: rotate(-856deg);
+    
+}
+.blurr{
+    backdrop-filter: blur(33px);
+}
+.doubledecker_section{
+    background: linear-gradient(rgb(255 255 255 / 48%), rgb(255 255 255)), url(/src/Components/3dback.webp) no-repeat center;
+    background-attachment: fixed;
+}
+.double-2{
+    /* background:linear-gradient(rgba(225,225,225,0.3),rgba(225,225,225,0.1)),url(../ExhibitionStanddroppages/images/Doubledecker.webp)no-repeat top center/cover; */
+    /* height: 100svh; */
+    /* margin-top: 3rem;
+    object-fit: cover; */
+
+    margin-top: 2rem;
+    height: 97vh;
+}
+.doublecontainer{
+    margin-top:-21px
+}
+.doubleside{
+    background: #a8cf45d6;
+    border-radius: 1rem;
+}
+.doublerow{
+
+    /* border: 4px solid #A8cf45; */
+    position: relative;
+    top: -22px;
+    height: 30rem;
+}
+.doublecol{
+    background:#a8cf45d6 ;
+    border-radius: 2rem;
+    height: 33rem;
+}
+.doubleHeading{
+    margin-top: 3rem;
+    text-align: center;
+  
+    /* color: #fff; */
+    font-size: 1.8rem;
+    
+}
+
+.doublepara{
+        
+        padding: 5px;
+        text-shadow: 0 0 #fff;
+        margin-right: 2rem;
+
+   
+    font-size: 1.1rem;
+
+}
+.dpara{
+    background:#A8cf45;
+    width: 96%;
+    border-radius: 1rem;
+    padding: 14px;
+    color: #fff;
+    margin: 0 auto;
+}
+.doubleparagrapgh{
+    margin-top: 30px;
+}
+.double_heading{
+    color: #A8cf45;
+    margin-top:4rem;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+.customheading{
+    text-align: center;
+    color: #A8cf45;
+    margin-bottom: 1rem;
+}
+.border{
+    border: 3px solid #A8cf45;
+    position: relative;
+    border-radius: 1rem;
+    margin-top: 6rem;
+    height: 82%;
+    width: 106%;
+    left: -6px;
+
+}
+.double-3{
+    background: linear-gradient(rgb(255 255 255 / 48%), rgb(255 255 255)), url(/src/Components/3dback.webp) no-repeat center;
+    background-attachment: fixed;
+}
+.doubleimage1{
+    width: 63%;
+    position: absolute;
+    top: 141px;
+    border-radius: 3rem;
+    z-index: 1;
+    border: 6px solid #fff;
+    left: -1rem;
+    height: 60%;
+    width: 84%;
+    object-fit: cover;
+
+}
+.doubleimage2{
+    border-radius: 2rem;
+    position: relative;
+    z-index: 0;
+    top: -52px;
+    left: 2rem;
+    border:6px solid #fff;
+
+}
+.doubleparag{
+    font-size: 1.1rem;
+    padding: 40px;
+}
+.doubleparag2{
+    padding: 10px 50px;
+    margin-top: 5rem;
+    font-size: 1.1rem;  
+}
+
+.doublecustom{
+    margin-top: 32px;
+}
+
+div.c{
+    position: relative;
+    margin:1em;
+  }
+  .accinput{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity:0;
+    visibility: 0;
+  }
+  .Acchead{
+    background:#A8cf45;
+    color:white;
+    padding:1em;
+    position: relative;
+  }
+  .labls::before{
+    content:"";
+    display: inline-block;
+    border: 6px solid transparent;
+    border-left:10px solid white;
+  }
+.labls{
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+  }
+  div.p{
+    max-height:0px;
+    overflow: hidden;
+    transition:max-height 0.5s;
+    background-color: white;
+    box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.2);
+  }
+  div.p p {
+    padding:2em;
+  }
+.accinput:checked ~ .Acchead .labls::before{
+    border-left:8px solid transparent;
+    border-top:6px solid white;
+    margin-top:10px;
+    margin-right:10px;
+  }
+.accinput:checked ~ .Acchead ~ div.p{
+    max-height:270px;
+  }
+ 

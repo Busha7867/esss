@@ -1,0 +1,264 @@
+/* .dropdown-menu{
+    width: 260px;
+    height: 206px;
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        #A8CF45,
+        rgba(255, 255, 255, 0.2)
+    );
+    backdrop-filter: blur(1rem);
+    
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+
+
+    position: absolute;
+    top: 19%;
+    text-align: start;
+  
+    display: block;
+    z-index: 3000;
+    
+    
+
+}
+
+.dropdown-menu li {
+    width: 220px;
+    height: 23%;
+    background:#A8CF45;
+    color: #A8CF45;
+    cursor: pointer;
+    margin: 0 20px;
+    padding: 0.9rem 1rem;
+ 
+    
+}
+.dropdown-menu li a{color: #fff;font-size: 1rem; padding: 2rem;
+ }
+
+
+.dropdown-Link{
+    display: block;
+    width: 200%;
+    height: 300%;
+    text-decoration: none;
+    color:#A8CF45;
+    padding: 16px;
+}
+.About_Dropdown{
+    width: 308px;
+    height: 207px;
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        #A8CF45,
+        rgba(255, 255, 255, 0.2)
+    );
+    backdrop-filter: blur(1rem);
+    
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+
+    position: absolute;
+   
+    z-index: 3000;
+ 
+    top: 125px;
+    display: none;
+    left: 43px;
+
+}
+.About_Dropdown li:hover{
+    
+    transition: all 0.2s ease;
+    margin: 0 20px;
+    color: #A8CF45;
+    
+
+}
+.about_links{
+    width: 269px;
+    height: 23%;
+    background:#A8CF45;
+    color: #A8CF45;
+    cursor: pointer;
+    margin: 0 20px;
+    padding: 0.9rem 1rem;
+
+}
+.about_links Link{
+    color: #fff;font-size: 1rem; padding: 2rem;
+    display: block;
+}
+.About_lists:hover .About_Dropdown{
+    display: block;
+    transition: 0.3s ease;
+  
+}
+
+
+.Exhibiton_Dropdown{
+    width: 308px;
+    height: 207px;
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        #A8CF45,
+        rgba(255, 255, 255, 0.2)
+    );
+    backdrop-filter: blur(1rem);
+    
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+
+    position: absolute;
+  
+    z-index: 3000;
+    
+    top: 125px;
+    display: none;
+    left: 187px;
+}
+.Exhibiton_Dropdown li:hover{
+   
+    transition: all 0.2s ease;
+    margin: 0 20px;
+    color: #A8CF45;
+    
+
+}
+.exhbdrop_links{
+    width: 269px;
+    height: 23%;
+    background:#A8CF45;
+    color: #A8CF45;
+    cursor: pointer;
+    margin: 0 20px;
+    padding: 0.9rem 1rem;
+
+}
+.exhbdrop_links Link{
+    color: #fff;font-size: 1rem; padding: 2rem;
+    display: block;
+}
+.Exhition_lists:hover .Exhibiton_Dropdown{
+    display: block;
+    transition: 0.3s ease;
+  
+}
+
+
+
+
+
+.GlobalDrop_lists >ul li {padding: 0;}
+.Global_Dropdown{
+    width: 308px;
+    height: 490px;
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        #A8CF45,
+        rgba(255, 255, 255, 0.2)
+    );
+    backdrop-filter: blur(1rem);
+    
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+
+    position: absolute;
+ 
+    z-index: 3000;
+    
+    top: 125px;
+    display: none;
+
+}
+.Global_Dropdown li:hover{
+ 
+    transition: all 0.2s ease;
+    margin: 0 20px;
+    color: #A8CF45;
+    
+
+
+}
+.global_links{
+    width: 269px;
+height: 44px;
+    background:#A8CF45;
+    color: #A8CF45;
+    cursor: pointer;
+    margin: 0 20px;
+    padding: 0.9rem 1rem;
+
+}
+
+
+.GlobalDrop_Lists:hover .Global_Dropdown{
+    display: block;
+    transition:all 0.5s ease-in-out;
+  
+}
+
+
+
+.content_Dropdown{
+    width: 308px;
+    height: 400px;
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        #A8CF45,
+        rgba(255, 255, 255, 0.2)
+    );
+    backdrop-filter: blur(1rem);
+    
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+
+    position: absolute;
+   
+    z-index: 3000;
+    
+    top: 125px;
+    display: none;
+ right: 47px;
+
+}
+.content_Dropdown li:hover{
+    
+    transition: all 0.2s ease;
+    margin: 0 20px;
+    color: #A8CF45;
+    
+
+
+}
+.content_links{
+    width: 269px;
+height: 49px;
+    background:#A8CF45;
+    color: #A8CF45;
+    cursor: pointer;
+    margin: 0 20px;
+    padding: 0.9rem 1rem;
+
+}
+
+
+
+.content_lists:hover .content_Dropdown {
+    display: block;
+    transition:all 0.5s ease-in-out;
+  
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 960px) {
+    .fa-caret-down {
+      display: none;
+    }
+  } */
